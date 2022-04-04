@@ -6,4 +6,64 @@
     padding: 0;
     margin: 0;
     box-sizing: content-box;
+    font-family: Barlow;
+}
+body {
+    background: #edeae7;
+}
+header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+header #logo {
+    width: 80px;
+    height: 80px;
+}
+#intro {
+    padding: 10px 100px;
+    text-align: center;
+}
+#intro h1 {
+    font-size: 39px;
+    margin-bottom: 8px;
+}
+#intro span {
+    text-decoration: underline #f46530;
+}
+#intro p {
+    font-size: 28px;
+}
+#langs {
+    padding: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lang {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.lang .lang-icon {
+    width: 30%;
+}
+.lang .lang-name {
+    color: #f46530;
+
+}
+.lang .info {
+    color: #2a2e30;
+}
+footer {
+    height: 40px;
+    border-top: 2px solid #2a2e30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
