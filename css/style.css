@@ -69,7 +69,7 @@ footer {
 }
 @media screen and (max-width:600px){
     #intro h1 {
-        font-size: 29px;
+        font-size: 27px;
         margin-bottom: 8px;
     }
     #intro p {
